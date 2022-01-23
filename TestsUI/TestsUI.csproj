@@ -25,4 +25,10 @@
     <ProjectReference Include="..\PlaywrightFramework\PlaywrightFramework.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="local.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
