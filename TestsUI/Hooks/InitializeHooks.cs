@@ -11,6 +11,7 @@ namespace TestsUI.Hooks
         [BeforeFeature]
         public static async Task BeforeFeature()
         {
+            Microsoft.Playwright.Program.Main(new[] { "install" });
             Page = await InitalizePlaywright(SettingsConfiguration.Browser);
         }
     }
